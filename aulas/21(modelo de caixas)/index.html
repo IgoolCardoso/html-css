@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+    <style>
+
+        /*
+        Todo elemento visível em HTML está dentro de uma caixa.
+        
+        Esta caixa tem como medidas altura(height) e largura(width).
+        
+        Outros elementos presentes na caixa seriam a borda(border),o espaçamento interno(padding),espaçamento externo(margin).
+
+        outline- um traçado fora do elemento
+        
+        box-level - Quebra para próxima linha, e ocupa a largura toda da viewport.
+
+        inline-level - Continua na mesma linha, e não ocupa a largura toda da viewport.
+        
+        Shorthands = 
+        border = width style color
+        outline = width style color
+        padding = top right bottom left
+        margin = top right bottom left
+
+        */
+        
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid black; 
+            padding:10px;
+            margin: 20px 20px 30px 20px ;
+            outline: 5px dashed salmon;
+            
+        }
+        a{
+            border: 2px dashed red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>

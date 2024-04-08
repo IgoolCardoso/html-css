@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'IDroid';
+    src: url('IDroid.otf')format('opentype');
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color:#82D9A0 ;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom,#41D976,#1B5936  );
+    padding: 10px;
+    text-shadow: 2px 2px 7px black;
+    
+    
+}
+.principal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+nav{
+    text-align: left;
+    margin-top: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.2em;
+    padding: 8px;
+}
+section{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+h1{
+    font-size: 2.1em;
+}
+h1,h2{
+      font-family: 'IDroid';
+      color:#1B5936;
+}
+h2{
+    background-image: linear-gradient(to right, #a9dbbb,#a9dbbb00);
+    padding-left: 5px;
+}
+span{
+    color: #1B5936;
+    font-weight: bold;
+}
+img{
+     padding: 50px;
+}
+#video{
+    background-color: #1B5936;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+#curiosidades{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+article{
+    background-color: #a9dbbb;
+    padding: 0;
+    margin: auto;
+    border-radius:10px ;
+    box-shadow: 2px 2px 10px black;
+    width: 850px;
+}
+h3{
+    background-color: #37b463;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+ul{
+    list-style-image: url("Pixelkit-Gentle-Edges-Check.32.png");
+}
+.list{
+    text-decoration: underline;
+    color: black;
+}
+footer{
+    background-color: #1B5936;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: center;
+    color:white
+}
+#bug{
+    text-align: center;
+    
+    
+}
